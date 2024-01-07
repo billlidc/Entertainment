@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/reset_menuItem"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/reset"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings_menuItem"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/info_menuItem"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/app_info"
+        app:showAsAction="always" />
+
+</menu>

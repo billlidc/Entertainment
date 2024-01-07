@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">娱乐</string>
+
+    <string name="go">来吧!</string>
+
+    // Action Bar w/ Menu
+    <string name="app_info">软件信息</string>
+    <string name="settings">设置</string>
+    <string name="reset">重置</string>
+
+    <string name="app_information">娱乐, ©</string>
+    <string name="versionCode">版本号：</string>
+    <string name="versionName">版本名：</string>
+    <string name="done">完成</string>
+    <string name="copyright">Copyright © 2022, Daochen Li. All rights reserved.</string>
+
+    <string name="back_to_main">回到主页</string>
+
+
+    <string name="random_activity">随机活动</string>
+    <string name="by_key">根据Key</string>
+    <string name="by_type">根据种类</string>
+    <string name="by_participants">根据参与者</string>
+
+    <string name="type">种类</string>
+    <string name="cancel">取消</string>
+
+    <string name="generate_activity">生成活动</string>
+
+    <string name="alert">返回警告</string>
+    <string name="alert_msg">想尝试别的活动? 此活动不会被保存。</string>
+    <string name="ok">好</string>
+
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="welcome">欢迎</string>
+    <string name="welcome_msg">欢迎来到娱乐！</string>
+
+    <string name="show_message">开始显示消息</string>
+    <string name="show_now_picture">展示图片2</string>
+    <string name="effect">效果</string>
+
+    <string name="activities">活动</string>
+    <string name="find_activity">寻找活动</string>
+
+    <string name="webview">网页视图</string>
+    <string name="colorview">颜色视图</string>
+
+    <string name="search">搜索</string>
+
+    <string name="avator1">图片1</string>
+    <string name="avator2">图片2</string>
+
+    <string-array name="effects" >
+        <item>Crop Square</item>
+        <item>Crop Circle</item>
+        <item>Blur</item>
+        <item>Pixelation</item>
+        <item>Invert</item>
+        <item>Rounded Corners</item>
+    </string-array>
+
+    <string-array name="effect_values" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="placeholder">entry_placeholder</string>
+
+    <string name="message_colorItem">ColorItem\(colorId=</string>
+    <string name="message_hexString">\nhexString\=</string>
+    <string name="message_name">\nname\=</string>
+    <string name="message_comma">\,</string>
+    <string name="message_right_parenthesis">)</string>
+
+
+</resources>

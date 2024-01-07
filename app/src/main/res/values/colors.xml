@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="turquoise_medium">#004F7B</color>
+    <color name="orange_700">#FFA000</color>
+    <color name="turquoise_dark">#001927</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="orange_100">#FFE0B2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_200">#81D4FA</color>
+    <color name="grey">#BEBEBE</color>
+
+
+    // unforgettable color them
+    <color name="popstar">#BD5368</color>
+    <color name="gunmetal">#2F2B3D</color>
+    <color name="yellow">#F0D16C</color>
+    <color name="meat_brown">#EBB23F</color>
+
+</resources>

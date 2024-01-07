@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.dli46.entertainment.ui.main.MainFragment"
+        android:label="main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_mainFragment_to_webviewFragment"
+            app:destination="@id/webviewFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_colorFragment"
+            app:destination="@id/colorFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.dli46.entertainment.ui.InfoFragment"
+        android:label="info_fragment"
+        tools:layout="@layout/info_fragment" >
+        <action
+            android:id="@+id/action_infoFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dli46.entertainment.ui.SettingsFragment"
+        android:label="settings_fragment"
+        tools:layout="@layout/settings_fragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.dli46.entertainment.ui.DetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/detail_fragment" >
+        <action
+            android:id="@+id/action_detailFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_detailFragment_to_requestFragment"
+            app:destination="@id/requestFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <dialog
+        android:id="@+id/requestFragment"
+        android:name="com.dli46.entertainment.ui.RequestFragment"
+        android:label="request_fragment">
+        <argument
+            android:name="selection"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_requestFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </dialog>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.dli46.entertainment.ui.ResultFragment"
+        android:label="result_fragment"
+        tools:layout="@layout/result_fragment" >
+        <action
+            android:id="@+id/action_resultFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.dli46.entertainment.ui.webview.WebviewFragment"
+        android:label="WebviewFragment" >
+        <action
+            android:id="@+id/action_webviewFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/colorFragment"
+        android:name="com.dli46.entertainment.ui.colorview.ColorFragment"
+        android:label="color_fragment"
+        tools:layout="@layout/color_fragment" >
+        <action
+            android:id="@+id/action_colorFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+</navigation>

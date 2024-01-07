@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Entertainment</string>
+
+    <string name="go">Let\'s Go!</string>
+
+    // Action Bar w/ Menu
+    <string name="app_info">App Info</string>
+    <string name="settings">Settings</string>
+    <string name="reset">Reset</string>
+
+    <string name="app_information">Entertainment, ©</string>
+    <string name="versionCode">Version Code: </string>
+    <string name="versionName">Version Name: </string>
+    <string name="done">Done</string>
+    <string name="copyright">Copyright © 2022, Daochen Li. All rights reserved.</string>
+    <string name="back_to_main">Back To Main</string>
+
+
+    <string name="random_activity">Random Activity</string>
+    <string name="by_key">By Key</string>
+    <string name="by_type">By Type</string>
+    <string name="by_participants">By Participants</string>
+
+    <string name="type">Type</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="generate_activity">Generate Activity</string>
+
+    <string name="alert">Go Back Alert</string>
+    <string name="alert_msg">Want To Try Another? Note that this generated activity will not be recorded.</string>
+    <string name="ok">OK</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="welcome">Welcome</string>
+    <string name="welcome_msg">Welcome to Entertainment App!</string>
+
+    <string name="show_message">Show Message at Start</string>
+    <string name="show_now_picture">Show Avatar2</string>
+
+    <string name="effect">Effect</string>
+
+    <string name="activities">Activities</string>
+    <string name="find_activity">Find Activity</string>
+
+    <string name="webview">Webview</string>
+    <string name="colorview">Colorview</string>
+    <string name="search">Search</string>
+
+
+
+    <string name="avator1">avator1</string>
+    <string name="avator2">avator2</string>
+
+    <string-array name="effects" >
+        <item>Crop Square</item>
+        <item>Crop Circle</item>
+        <item>Blur</item>
+        <item>Pixelation</item>
+        <item>Invert</item>
+        <item>Rounded Corners</item>
+    </string-array>
+
+    <string-array name="effect_values" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="placeholder">entry_placeholder</string>
+
+
+    <string name="message_colorItem">ColorItem\(colorId=</string>
+    <string name="message_hexString">\nhexString\=</string>
+    <string name="message_name">\nname\=</string>
+    <string name="message_comma">\,</string>
+    <string name="message_right_parenthesis">)</string>
+
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="random_array">
+        <item>random activity</item>
+    </string-array>
+
+    <string-array name="key_array">
+        <item>1000000</item>
+        <item>3943506</item>
+        <item>6613330</item>
+        <item>7687030</item>
+        <item>9026787</item>
+        <item>9303608</item>
+        <item>9999999</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>education</item>
+        <item>recreational</item>
+        <item>social</item>
+        <item>diy</item>
+        <item>charity</item>
+        <item>cooking</item>
+        <item>relaxation</item>
+        <item>music</item>
+        <item>busywork</item>
+    </string-array>
+
+    <string-array name="participant_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<string-array name="pronounsArray">
+    <item>he|him|his</item>
+    <item>she|her|her</item>
+    <item>it|it|its</item>
+    <item>we|us|our</item>
+    <item>they|them|their</item>
+</string-array>
