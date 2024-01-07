@@ -85,7 +85,7 @@ For more instructions on how to set up the environment needed for this Entertain
 ## Image Use Disclaimer
 
 
-I have used images in the Entertainment App that are believed to be in the public domain or available under creative commons licenses. If you are the copyright holder of an image in our app and it has been used without proper rights, please contact me. We will promptly address the issue by either obtaining the correct permissions or removing the image.  
+I have used images in the Entertainment App that are believed to be in the public domain or available under creative commons licenses. If you are the copyright holder of an image in the app and it has been used without proper rights, please contact me. I will promptly address the issue by either obtaining the correct permissions or removing the image.  
 
 
 ---
