@@ -95,3 +95,6 @@ Android Studio: https://redirector.gvt1.com/edgedl/android/studio/install/2021.1
 Emulator: https://redirector.gvt1.com/edgedl/android/repository/emulator-darwin_x64-8143646.zip  
 
 ---
+
+[leeklee0427](https://github.com/leeklee0427)  
+Last Edited on: 01/06/2024
