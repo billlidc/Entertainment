@@ -1,4 +1,4 @@
-# Building and running an old Android project (01/06/2024)
+# Building and Running an Old Android Project (01/06/2024)
 
 ## Outline
 Make sure versions are compatible:
